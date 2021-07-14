@@ -64,9 +64,13 @@ main {
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    grid-row: 24px;
+    column-gap: 30px;
+    width: 50%;
+    margin: 220px 220px 0 220px;
     margin-top: 70px;
+    /* justify-items: center;
+    grid-row: 24px; */
+    
 }
 
 .player {
@@ -101,4 +105,10 @@ main {
 .player img {
     width: 300px;
     height: 256px;
+}
+.footer p{
+    text-align: center;
+    border: 2px solid red;
+    margin: 100px 0;
+    padding: 100px;
 }

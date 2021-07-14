@@ -106,9 +106,21 @@ main {
     width: 300px;
     height: 256px;
 }
-.footer p{
+
+.social-net{
     text-align: center;
     border: 2px solid red;
-    margin: 100px 0;
-    padding: 100px;
+    
+    
+}
+#footer p{
+    border: 2px solid red;
+    text-align: center;
+    font-size: 2em;
+    padding:10px 0 100px 0;
+}
+.logo{
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid red;
 }

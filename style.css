@@ -46,9 +46,13 @@ main {
     text-decoration: none;
     padding: 10px 20px 10px 15px;
 }
-.link-button :hover{
-    background-color: royalblue;
+.link-button:hover{  
+        cursor: pointer;
+        border-radius: 50px;
+        background-color: black;
+        box-shadow: 0px 0px 40px rgb(255, 71, 71);
 }
+
 
 .fa-arrow-right {
     margin-left: 10px;
